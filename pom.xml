@@ -18,8 +18,8 @@
     </properties>
 
 	    <scm>
-        <url>D:\Software\Source\project-examples-master\maven-example</url>
-        <connection>file://D:\Software\Source\project-examples-master\maven-example.git</connection>
+        <url>https://github.com/syryin/MutilModule</url>
+        <connection>https://github.com/syryin/MutilModule.git</connection>
     </scm>
 	
     <dependencies>
