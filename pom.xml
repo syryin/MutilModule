@@ -19,7 +19,7 @@
 
 	    <scm>
         <url>https://github.com/syryin/MutilModule</url>
-        <connection>https://github.com/syryin/MutilModule.git</connection>
+        <connection>scm:git:git@github.com:syryin/MutilModule.git</connection>
     </scm>
 	
     <dependencies>
