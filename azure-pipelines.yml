@@ -23,7 +23,7 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$(Pipeline.Workspace)/s/multi1/target'
+    targetPath: '$(Pipeline.Workspace)/s/multi1/target/multi1-6.12-SNAPSHOT-sources.jar'
     artifact: 'multi1-6.12-SNAPSHOT-sources.jar'
     publishLocation: 'pipeline'
 
