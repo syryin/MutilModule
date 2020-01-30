@@ -5,7 +5,7 @@
     <artifactId>multi</artifactId>
     <version>6.12-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Simple Multi Modules Build</name>
+    <name>Simple Multi Modules Build For Azure</name>
 
     <modules>
         <module>multi1</module>
