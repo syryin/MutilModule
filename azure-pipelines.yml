@@ -21,12 +21,9 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
 
-stages:
-  - stage: package
-    displayName: Package Stage
-    - task: PublishPipelineArtifact@1
-      inputs:
-        targetPath: '$(Pipeline.Workspace)'
-        artifact: 'multi*.jar'
-        publishLocation: 'pipeline'
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    artifact: 'multi*.jar'
+    publishLocation: 'pipeline'
 
